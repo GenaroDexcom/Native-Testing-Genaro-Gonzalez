@@ -30,7 +30,7 @@ struct SmoothieHeaderView: View {
                 wideContent
             }
         }
-        .accessibilityElement(children: .combine)
+        .accessibilityElement(children: .contain)
     }
     
     var fullBleedContent: some View {
@@ -42,6 +42,7 @@ struct SmoothieHeaderView: View {
             
             VStack(alignment: .leading) {
                 Text(smoothie.description)
+                    .accessibilityIdentifier("description-\(smoothie.id)")
                 Text(smoothie.energy.formatted(.measurement(width: .wide, usage: .food)))
                     .font(.subheadline)
                     .foregroundStyle(.secondary)

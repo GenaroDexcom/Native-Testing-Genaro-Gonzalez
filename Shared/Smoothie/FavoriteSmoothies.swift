@@ -24,6 +24,7 @@ struct FavoriteSmoothies: View {
                         .frame(maxWidth: .infinity, maxHeight: .infinity)
                         .background()
                         .ignoresSafeArea()
+                        .accessibilityIdentifier("empty-favorites-message")
                 }
             }
             .navigationTitle(Text("Favorites", comment: "Title of the 'favorites' app section showing the list of favorite smoothies"))

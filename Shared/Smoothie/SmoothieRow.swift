@@ -22,25 +22,30 @@ struct SmoothieRow: View {
                 .clipShape(imageClipShape)
                 .overlay(imageClipShape.strokeBorder(.quaternary, lineWidth: 0.5))
                 .accessibility(hidden: true)
+                .accessibilityIdentifier("image-\(smoothie.id)")
 
             VStack(alignment: .leading) {
                 Text(smoothie.title)
                     .font(.headline)
+                    .accessibilityIdentifier("title-\(smoothie.id)")
                 
                 Text(listedIngredients)
                     .lineLimit(2)
+                    .accessibilityIdentifier("ingredients-\(smoothie.id)")
                     .accessibility(label: Text("Ingredients: \(listedIngredients).",
                                                comment: "Accessibility label containing the full list of smoothie ingredients"))
 
                 Text(smoothie.energy.formatted(.measurement(width: .wide, usage: .food)))
                     .foregroundStyle(.secondary)
                     .lineLimit(1)
+                    .accessibilityIdentifier("energy-\(smoothie.id)")
             }
             
             Spacer(minLength: 0)
         }
         .font(.subheadline)
-        .accessibilityElement(children: .combine)
+        .accessibilityElement(children: .contain)
+        .accessibilityIdentifier(smoothie.id)
     }
     
     var listedIngredients: String {

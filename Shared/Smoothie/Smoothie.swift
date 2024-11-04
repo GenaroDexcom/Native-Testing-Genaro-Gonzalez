@@ -85,7 +85,7 @@ extension Smoothie {
         }
 
         if includingPaid {
-            Smoothie(id: "pina-y-coco", title: String(localized: "Piña y Coco", comment: "Smoothie name")) {
+            Smoothie(id: "pina-y-coco", title: String(localized: "Piña yCoco", comment: "Smoothie name")) {
                 AttributedString(localized: "Enjoy the *tropical* flavors of coconut and pineapple!", comment: "Piña y Coco smoothie description")
                 Ingredient.pineapple.measured(with: .cups).scaled(by: 1.5)
                 Ingredient.almondMilk.measured(with: .cups)

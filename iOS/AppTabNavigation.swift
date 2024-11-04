@@ -74,6 +74,7 @@ struct AppTabNavigation: View {
             .tag(Tab.recipes)
             #endif
         }
+        .accessibilityElement(children: .contain)
     }
 }
 

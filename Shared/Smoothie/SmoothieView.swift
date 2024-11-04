@@ -37,6 +37,7 @@ struct SmoothieView: View {
             .toolbar {
                 SmoothieFavoriteButton()
                     .environmentObject(model)
+                    .accessibilityIdentifier("favorite-button-\(smoothie.id)")
             }
             .sheet(isPresented: $presentingOrderPlacedSheet) {
                 OrderPlacedView()

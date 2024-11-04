@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -448,6 +448,13 @@
 			remoteGlobalIDString = 612F3D832615A2F400137D77;
 			remoteInfo = "Fruta iOS Clip";
 		};
+		7694FD6A2CAD033E00F7D733 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E6123F8244E8B32004DDFF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0DC7F9727B72FDC00A6417B;
+			remoteInfo = "Fruta iOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -547,7 +554,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		33BFC6A1DCA101BFABE069E5 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		33BFC6A1DCA101BFABE069E5 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		5E6123FD244E8B32004DDFF7 /* FrutaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrutaApp.swift; sourceTree = "<group>"; };
 		5E6123FF244E8B32004DDFF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		610F54662615818D001D3AA0 /* NutritionFactView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NutritionFactView.swift; sourceTree = "<group>"; };
@@ -616,6 +623,7 @@
 		61A8CB8926166F2A002845E4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		61C3378226559001001AAC1D /* PurchaseButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseButtonStyle.swift; sourceTree = "<group>"; };
 		69734291265EC1390005A14C /* SmoothieCommands.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmoothieCommands.swift; sourceTree = "<group>"; };
+		7694FD642CAD033E00F7D733 /* Fruta iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fruta iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC1AA3A24832F0200A6CF1F /* iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOS.entitlements; sourceTree = "<group>"; };
 		A31FA5B326323F9400FC46C1 /* NutritionalItems.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NutritionalItems.json; sourceTree = "<group>"; };
 		A3C268F4262FE0030093B9DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -626,12 +634,16 @@
 		A3C269242630F6900093B9DF /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A3DC6E3A2657241A008724A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Ingredients.strings; sourceTree = "<group>"; };
 		A3DC6E4026572422008724A1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Ingredients.strings; sourceTree = "<group>"; };
-		A594677E73BEF8AA1F7A859F /* ACKNOWLEDGMENTS.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = ACKNOWLEDGMENTS.txt; sourceTree = "<group>"; };
-		C640196161A8E05832EA149C /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		A594677E73BEF8AA1F7A859F /* ACKNOWLEDGMENTS.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = ACKNOWLEDGMENTS.txt; sourceTree = "<group>"; };
+		C640196161A8E05832EA149C /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		E036C2ED2633B2B200E15D26 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E0DC7FE327B72FDC00A6417B /* Fruta iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fruta iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0DC802C27B7307600A6417B /* Fruta macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fruta macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7694FD652CAD033E00F7D733 /* Fruta iOSUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Fruta iOSUITests"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		610F54FC26158DDB001D3AA0 /* Frameworks */ = {
@@ -669,6 +681,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7694FD612CAD033E00F7D733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E0DC7FD127B72FDC00A6417B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -692,7 +711,6 @@
 				33BFC6A1DCA101BFABE069E5 /* LICENSE.txt */,
 				A594677E73BEF8AA1F7A859F /* ACKNOWLEDGMENTS.txt */,
 			);
-			name = LICENSE;
 			path = LICENSE;
 			sourceTree = "<group>";
 		};
@@ -704,6 +722,7 @@
 				5E612406244E8B32004DDFF7 /* iOS */,
 				5E61240D244E8B32004DDFF7 /* macOS */,
 				6111A1D426157D870046AAA9 /* Widgets */,
+				7694FD652CAD033E00F7D733 /* Fruta iOSUITests */,
 				5E612405244E8B32004DDFF7 /* Products */,
 				CC6C0F7AEF2D0CBC2E3EEFD6 /* Configuration */,
 				3CAE0E9B584C983E4E90807D /* LICENSE */,
@@ -740,6 +759,7 @@
 				612F3D842615A2F400137D77 /* Fruta iOS Clip.app */,
 				E0DC7FE327B72FDC00A6417B /* Fruta iOS.app */,
 				E0DC802C27B7307600A6417B /* Fruta macOS.app */,
+				7694FD642CAD033E00F7D733 /* Fruta iOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1015,6 +1035,29 @@
 			productReference = 612F3D842615A2F400137D77 /* Fruta iOS Clip.app */;
 			productType = "com.apple.product-type.application.on-demand-install-capable";
 		};
+		7694FD632CAD033E00F7D733 /* Fruta iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7694FD6E2CAD033E00F7D733 /* Build configuration list for PBXNativeTarget "Fruta iOSUITests" */;
+			buildPhases = (
+				7694FD602CAD033E00F7D733 /* Sources */,
+				7694FD612CAD033E00F7D733 /* Frameworks */,
+				7694FD622CAD033E00F7D733 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7694FD6B2CAD033E00F7D733 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7694FD652CAD033E00F7D733 /* Fruta iOSUITests */,
+			);
+			name = "Fruta iOSUITests";
+			packageProductDependencies = (
+			);
+			productName = "Fruta iOSUITests";
+			productReference = 7694FD642CAD033E00F7D733 /* Fruta iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		E0DC7F9727B72FDC00A6417B /* Fruta iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0DC7FE027B72FDC00A6417B /* Build configuration list for PBXNativeTarget "Fruta iOS" */;
@@ -1060,7 +1103,7 @@
 			isa = PBXProject;
 			attributes = {
 				DefaultBuildSystemTypeForWorkspace = Latest;
-				LastSwiftUpdateCheck = 1330;
+				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1300;
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
@@ -1072,6 +1115,10 @@
 					};
 					612F3D832615A2F400137D77 = {
 						CreatedOnToolsVersion = 13.0;
+					};
+					7694FD632CAD033E00F7D733 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E0DC7F9727B72FDC00A6417B;
 					};
 				};
 			};
@@ -1096,6 +1143,7 @@
 				610F550826158DE2001D3AA0 /* Fruta macOS All */,
 				610F554E26158E0A001D3AA0 /* Fruta iOS Widgets */,
 				610F55A9261592F8001D3AA0 /* Fruta macOS Widgets */,
+				7694FD632CAD033E00F7D733 /* Fruta iOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -1168,6 +1216,13 @@
 				612F3D9A2615A32300137D77 /* Assets.xcassets in Resources */,
 				A3C268F8262FE0060093B9DF /* Localizable.stringsdict in Resources */,
 				612F3DB22615A33A00137D77 /* NutritionFactsAssets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7694FD622CAD033E00F7D733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1499,6 +1554,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7694FD602CAD033E00F7D733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E0DC7F9C27B72FDC00A6417B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1633,6 +1695,11 @@
 			isa = PBXTargetDependency;
 			target = 612F3D832615A2F400137D77 /* Fruta iOS Clip */;
 			targetProxy = 612F3D912615A2F600137D77 /* PBXContainerItemProxy */;
+		};
+		7694FD6B2CAD033E00F7D733 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0DC7F9727B72FDC00A6417B /* Fruta iOS */;
+			targetProxy = 7694FD6A2CAD033E00F7D733 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -2151,6 +2218,56 @@
 			};
 			name = Release;
 		};
+		7694FD6C2CAD033E00F7D733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z8Z62A6ULS;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bittcraft.Fruta-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fruta iOS";
+			};
+			name = Debug;
+		};
+		7694FD6D2CAD033E00F7D733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z8Z62A6ULS;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bittcraft.Fruta-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fruta iOS";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		E0DC7FE127B72FDC00A6417B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C640196161A8E05832EA149C /* SampleCode.xcconfig */;
@@ -2162,7 +2279,7 @@
 				CODE_SIGN_ENTITLEMENTS = iOS/iOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Z8Z62A6ULS;
 				INFOPLIST_FILE = iOS/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Fruta;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -2198,7 +2315,7 @@
 				CODE_SIGN_ENTITLEMENTS = iOS/iOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Z8Z62A6ULS;
 				INFOPLIST_FILE = iOS/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Fruta;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -2337,6 +2454,15 @@
 			buildConfigurations = (
 				612F3D952615A2F600137D77 /* Debug */,
 				612F3D962615A2F600137D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7694FD6E2CAD033E00F7D733 /* Build configuration list for PBXNativeTarget "Fruta iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7694FD6C2CAD033E00F7D733 /* Debug */,
+				7694FD6D2CAD033E00F7D733 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
